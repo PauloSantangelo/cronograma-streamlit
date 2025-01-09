@@ -1,0 +1,116 @@
+/* Barra lateral (sidebar) */
+[data-testid="stSidebar"] {
+    background-color: #ffffff; /* Branco */
+    border-right: 2px solid #e0e0e0;
+    padding: 20px;
+}
+
+/* Títulos e textos da sidebar */
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] label {
+    color: #333333; /* Cinza escuro */
+    font-weight: bold;
+}
+
+/* Botões na barra lateral */
+[data-testid="stSidebar"] .stButton button {
+    background-color: #833AB4; /* Roxo do logotipo */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Arredondamento menor */
+    padding: 6px 12px; /* Reduzido ainda mais */
+    font-size: 10px; /* Menor fonte */
+    font-weight: bold;
+}
+
+[data-testid="stSidebar"] .stButton button:hover {
+    background-color: #FD1D1D; /* Gradiente do logotipo */
+    color: white;
+}
+
+/* Corpo principal */
+.stApp {
+    background-color: #202020; /* Preto moderno */
+    color: white;
+}
+
+/* Título principal */
+h1, h2, h3 {
+    color: #FD1D1D; /* Gradiente Laranja/Vermelho do logotipo */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Caixas de entrada */
+.stTextInput > div > div > input,
+.stNumberInput > div > div > input,
+.stTextArea > div > textarea {
+    border: 1px solid #6c63ff;
+    border-radius: 5px;
+    padding: 8px; /* Reduzido para encaixar melhor */
+    background-color: #333333;
+    color: white;
+    font-size: 12px; /* Menor fonte */
+}
+
+/* Botões principais */
+.stButton > button {
+    background-color: #eb10b8; /* Roxo do logotipo */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Arredondamento menor */
+    padding: 8px 12px; /* Botões menores */
+    font-size: 12px; /* Menor fonte */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.stButton > button:hover {
+    background-color: #6709a1df; /* Laranja do logotipo */
+    transform: scale(1.05); /* Leve efeito de hover */
+}
+
+/* Logotipo */
+.logo-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo-container img {
+    width: 80%; /* Ajustar largura para caber bem */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Resumo de clientes cadastrados */
+.stMarkdown {
+    color: white;
+    font-size: 14px; /* Fonte reduzida */
+    font-weight: 500;
+}
+
+/* Caixa para seções (cards ou clientes) */
+.card {
+    background-color: #292929; /* Fundo de card */
+    border: 1px solid #6c63ff; /* Roxo como borda */
+    border-radius: 10px;
+    padding: 10px; /* Padding menor */
+    margin-bottom: 10px; /* Menor espaçamento entre cards */
+    color: white;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 10px rgba(140, 63, 255, 0.5); /* Efeito de hover */
+}
+
+/* Centralizar conteúdo */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
