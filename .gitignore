@@ -1,0 +1,30 @@
+# Ignorar ambientes virtuais (como venv)
+venv/
+.env/
+
+# Ignorar arquivos temporários e de cache
+*.pyc
+*.pyo
+__pycache__/
+.cache/
+*.log
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependências instaladas
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignorar arquivos do Streamlit
+.streamlit/
+
+# Ignorar bases de dados locais
+database/
+
+# Ignorar outros arquivos grandes ou desnecessários
+assets/large_files/
+*.zip
+*.tar.gz
